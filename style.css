@@ -1,0 +1,80 @@
+header {
+    background-color: #0A2472;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Cor do texto dos botões */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #2C6399; /* Cor de fundo dos botões */
+}
+
+nav ul li a:hover {
+    background-color: #393c46; /* Cor de fundo dos botões ao passar o mouse */
+}
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #F0F0F0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #FFFFFF;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        color: #333333;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #666666;
+    }
+
+    input[type="text"],
+    select,
+    fieldset,
+    textarea {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #0A2472;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0A2472;
+    }
+
