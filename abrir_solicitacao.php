@@ -14,7 +14,7 @@
     <div class="container">
         <h1>Abrir Solicitação</h1>
 
-        <form id="form-solicitacao" action="teste.php" method="post">
+        <form id="form-solicitacao" action="registra_solicitacao.php" method="post">
             <label for="departamento">Departamento:</label>
             <select name="departamento" id="departamento" form="form-solicitacao">
                 <option value="gtic">GTIC</option>
@@ -37,9 +37,8 @@
 
             <fieldset>
                 <legend>Prioridade:</legend>
+                <br>    
                 <div>
-                    <label>Selecione a prioridade da sua Solicitação</label>
-                    <br>    
                     <tr>
                         <td><input type="radio" id="baixa" name="prioridade" value="baixa" checked />Baixa</td>
                         <td><input type="radio" id="media" name="prioridade" value="media" />Media</td>
@@ -53,6 +52,7 @@
 
             <fieldset>
                 <legend>Anexo:</legend>
+                <br> 
                 <div>
                     <input type="file" name="anexo"></label >
                 </div>

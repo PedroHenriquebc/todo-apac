@@ -12,4 +12,5 @@
     echo($_POST['prioridade']);
     echo '<br>';
     
+    // header('Location: abrir_solicitacao.php');
 ?>
