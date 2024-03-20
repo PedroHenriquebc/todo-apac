@@ -9,15 +9,7 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.php">Início</a></li>
-                <li><a href="exibir_solicitacoes.php">Exibir Solicitações</a></li>
-                <li><a href="abrir_solicitacao.php">Abrir Solicitação</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php include "barra_navegacao.html"; ?>
 
     <div class="container">
         <h1>Abrir Solicitação</h1>
